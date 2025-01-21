@@ -127,7 +127,7 @@ jobs:
 
 `${{ secrets.SITE_URL }}` , `${{ secrets.DOCKER_USERNAME }}`, and `${{ secrets.DOCKER_PASSWORD }}` these variable are not coming from github's secrets and variables option on setting
 
-![git variables](image3.png)
+![git variables](/assets/image3.png)
 
 
 
