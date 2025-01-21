@@ -1,0 +1,23 @@
+
+Install Docker on AWS EC2 sudo apt-get update
+sudo apt-get install docker.io -y
+sudo systemctl start docker
+sudo docker run hello-world
+docker ps
+sudo chmod 666 /var/run/docker.sock
+sudo systemctl enable docker
+docker --version
+I
+sudo apt-get update && sudo apt-get install docker.io -y && sudo systemctl start docker &&
+Mongo Db Atlas Setup:
+Create project
+Create database
+Network Access -> IP
+Security->Quickstart -> Add user SFzA6VIBHJKKD9xV
+Run Node:
+docker run -d -p 4000:4000 --name mern-node-example-container -e MONGO_PASSWORD='test@123' mern-node-example
+Run React:
+docker run -d -p 3000:80 --name reactContainer -e REACT_APP_NODE_ENV='production' -e REACT_APP_SERVER_BASE_URL="http://localhost:4000 integrationninjas/reactis-app
+docker build -t integrationninjas/angular-app--build-arg API_URL="http://localhoscleart:4000'
+docker run -d -p 3000:80 --name angular-app-container integrationninias/angular-app
+
