@@ -152,6 +152,10 @@ Major issues you can phase in this process
         to check instance Memory `df -h`
         to clean instance fully run `sudo apt-get clean && sudo docker system prune -a --volumes`
 
+      ###Faster way to do all that (stop and Delete Container and image then restart docker)
+      to Delete container `sudo docker rm <Container_ID>`
+      to Delete Image `sudo docker rmi <image_ID>` 
+      to Restart `sudo systemctl restart docker`
 
 ## Note you need to remember
 you need full relaxed mind to perform all of this it some times create some issues but don't worry every problem have a solution just don't panic
